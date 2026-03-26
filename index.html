@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+
+        <div class="item1">
+    <h2>Student Result Calculator</h2>
+    <label for="subjects" >Number of Subjects:</label><br>
+    <input type="number"  placeholder="Enter the no. of subjects" id="subjects" name="subjects">
     
-    <script src="./script.js"></script>
+
+    </div>
+    <button onclick="calculateResult()" class="item2">
+    Calculate Result
+    </button>
+     <div>
+        <h3 id="result"></h3>
+    </div>
+    </div>
+    
+    <script src="exp4.js"></script>
+    
 </body>
 </html>

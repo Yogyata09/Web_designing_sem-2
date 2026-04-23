@@ -1,0 +1,57 @@
+.container{ 
+    text-align: center; 
+    display: block; 
+    background-color: rgb(129, 150, 194); 
+    margin: 30px; 
+    padding: 10px; 
+} 
+.button{ 
+    padding: 50px; 
+    margin: 50px; 
+     background-color: rgb(79, 180, 17); 
+} 
+#heading{
+     height: 30px; 
+    width: 250px; 
+    border-radius: 10px; 
+    margin-left: 50px; 
+    text-align: center;
+}
+#name{ 
+    height: 30px; 
+    width: 250px; 
+    border-radius: 10px; 
+    margin-left: 50px; 
+  
+} 
+#head{ 
+    height: 30px; 
+    width: 250px; 
+    border-radius: 10px; 
+    
+     
+} 
+#background{
+    height: 30px;
+    width: 250px; 
+    border-radius: 10px; 
+   
+}
+#font{
+    height: 30px;
+    width: 250px; 
+    border-radius: 10px; 
+  
+}
+#paragraph{
+      height: 30px;
+    width: 250px; 
+    border-radius: 10px; 
+  
+}
+#reset{
+    height: 30px;
+    width: 250px; 
+    border-radius: 10px; 
+  
+}

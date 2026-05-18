@@ -1,46 +1,98 @@
-.container{ 
-    text-align: center; 
-    display: block; 
-    background-color: rgb(129, 150, 194); 
-    margin: 30px; 
-    padding: 10px; 
-} 
-.button{ 
-    padding: 5px; 
-    margin: 5px; 
-     background-color: rgb(79, 180, 17); 
-     border-radius: 10px;
-} 
-#name{ 
-    height: 30px; 
-    width: 250px; 
-    border-radius: 10px; 
-    margin-left: 50px; 
-} 
-#id{ 
-    height: 30px; 
-    width: 250px; 
-    border-radius: 10px; 
-   
-     
-} 
-#salary{ 
-    height: 30px; 
-    width: 250px; 
-    border-radius: 10px; 
-margin-left: 45px;
-} 
-#department{ 
-height: 30px; 
-width: 250px; 
-border-radius: 10px; 
-margin-left: 10px; 
-} 
-.button:hover{ 
-background-color:rgb(215, 21, 21) ; 
+.container {
+    width: 600px;
+    height: 420px;
+    background-color: lightsalmon;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 12px;
+    border: black solid 2px;
+    box-shadow: 5px 5px 10px grey;
 }
+#salary{
+    border: red solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    text-align: center; 
+}
+#name{
+    border: red solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    text-align: center; 
+}
+#empId{
+    border: red solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    text-align: center; 
+}
+#dept{
+    border: red solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    text-align: center; 
+}
+.add{
+    border: rgb(181, 116, 116) solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: lightcyan;
+    
+    text-align: center; 
+}
+.display{
+    border: rgb(205, 137, 137) solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightcyan;
+    
+    text-align: center; 
+}
+.salary{
+    border: rgb(254, 160, 160) solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightcyan;
+    
+    text-align: center; 
+}
+.total{
+    border: rgb(221, 132, 132) solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightcyan;
+    
+    text-align: center; 
+}
+.average{
+    border: rgb(199, 119, 119) solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightcyan;
 
-.employee{
-    background-color: aqua;
-
+    
+    text-align: center; 
+}
+.count{
+    border: rgb(241, 144, 144) solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+        background-color: lightcyan;
+    margin-top: 10px;
+    
+    text-align: center; 
 }

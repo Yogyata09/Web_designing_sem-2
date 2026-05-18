@@ -8,20 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <h2> Employee salary Management System</h2>
-        <input type="Employee name" id="name" placeholder="Employee Name"><br>
-        <input type="Employee id" id="number" placeholder="Employee ID"><br>
-        <input type="Salary" id="number" placeholder="Salary"><br>
-        <input type="Department" id="text" placeholder="Department"><br>
-        <button onclick="AddEmployee()">Add Employee</button>
-        <button onclick="DisplayAll()">Dispaly All</button>
-        <button onclick="Salary()">Salary</button>
-        <button onclick="Totalsalary()">Total Salary</button><br>
-        <button onclick="AverageSalary()">Average Salary</button>
-        <button onclick="Countbydepart()">Count by Department</button>
+    <h2> Employee Salary Management System</h2>
+    <input type="text" id="name" placeholder="Employee Name"><br>
+    <input type="text" id="empId"placeholder="Employee ID"><br>
+    <input type="number"id="salary" placeholder="Salary">
+<br>
+<input type="text "id="dept" placeholder="Department"><br>
+<button onclick="addEmployee()" class="add">Add Employee</button><br>
+<button onclick="displayAll()" class="display">Display All</button>
+<button onclick="salaryFilter()" class="salary">Salary>50000</button>
+<button onclick="totalSalary()" class="total">Total Salary</button>
+<button onclick="averageSalary()" class="average">Average Salary</button>
+<button onclick="countByDepartment()" class="count">Count By Department</button>
 
+<div id="output" class="output"></div>
     </div>
-    <div class ="result"></div>
-    <script scr="script.js"></script>
+    <script src="script.js">
+
+    </script>
+    <h3 class="tv">Yogyata<br>
+  2503201001362</h3>
+    
 </body>
 </html>
